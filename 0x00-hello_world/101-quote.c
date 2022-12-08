@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 /**
- * prints a string
+ * main - prints a string
  * followed by a new line
  * Return: 0
  */
