@@ -19,29 +19,27 @@
 int main(void)
 {
 		int j, k, l;
-		for (j = 0 ; j <= 9 ; j++)
-		{
-			for (k = 1 ; k <= 9 ; k++)
-            		{
-				for (l = 2 ; l <= 9 ; l++)
-	                	{
-			         																				if (l > k && k > j)
-				
-				       {
-					       {
-                     						       putchar(j + '0');
-		                         		               putchar(k + '0');
-				                                       putchar(l + '0');
-				                                         if (j != 7)
-					       }
-						       
-				       }
-																							    							putchar(',');
-				            		putchar(' ');
-			         }
-																						}
-					       																}
 
-	        putchar('\n');
-        	return (0);
+			for (j = 0 ; j <= 9 ; j++)
+					{
+								for (k = 1 ; k <= 9 ; k++)
+											{
+															for (l = 2 ; l <= 9 ; l++)
+																			{
+																								if (l > k && k > j)
+																													{
+																																			putchar(j + '0');
+																																								putchar(k + '0');
+																																													putchar(l + '0');
+																																																		if (j != 7)
+																																																								{
+																																																															putchar(',');
+																																																																					putchar(' ');
+																																																																										}
+																																																						}
+																											}
+																	}
+									}
+				putchar('\n');
+					return (0);
 }
