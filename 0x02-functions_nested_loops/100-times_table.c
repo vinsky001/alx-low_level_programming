@@ -19,7 +19,7 @@ void print_times_table(int j)
 				op = x * y;
                                 _putchar(44);
 				_putchar(32);
-			        if (op <= 9)
+            	        if (op <= 9)  
 				{
 					_putchar(32);
 					_putchar(32);
