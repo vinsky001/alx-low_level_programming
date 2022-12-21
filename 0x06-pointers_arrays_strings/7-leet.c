@@ -6,7 +6,8 @@
     *Return: a pointer to the encoded string
  */
 
-char *leet(char *)
+
+char *leet(char *str)
 {
 	char ch[] = "aAeEoOtTlL";
 	char leet[] = "4433007711";
