@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
-    *_memset - function that fills memory with a constant byte
-    *@b: the address of memory to print
-    *@s: the size of the memory to print
-    *@n: bytes of the memory
-    *Return: success
-    */
+  *_memcpy - function that copies the memory area
+  *@n: bytes from memory
+  *@src: source of size bytes
+  *@dest: memory destination
+  *Return: Success
+ */
 
-char *_memset(char *s, char b, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	for (unsigned int i = 0; i < n; i++)
-		s[i] = b;
-	return s;
+	memcpy(dest, src, n);
+	return (dest);
 }

@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
-  *_memcpy - function that copies the memory area
-  *@n: bytes from memory
-  *@src: source of size bytes
-  *@dest: memory destination
-  *Return: Success
- */
+    *_strchr - function that locates a character in a string
+    *@s: string character
+    *@c: character in the string
+    *Return: Success
+    */
 
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_strchr(char *s, char c)
 {
-	memcpy(dest, src, n);
-	return (dest);
+	return (strchr(s, c));
 }
