@@ -55,7 +55,7 @@ char **strtow(char *str)
 			for (j = 1; str[i + j] != ' ' && str[i + j]; j++)
 				;
 			j++;
-			[wc] = (char *)malloc(j * sizeof(char));
+			w[wc] = (char *)malloc(j * sizeof(char));
 			j--;
 			if (w[wc] == NULL)
 			{
