@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "string.h"
 /**
     *_strstr - function that locates a substring
     *@haystack: the first occurrence of the substring in the strin

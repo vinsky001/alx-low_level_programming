@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "string.h"
 /**
   *_memcpy - function that copies the memory area
   *@n: bytes from memory
