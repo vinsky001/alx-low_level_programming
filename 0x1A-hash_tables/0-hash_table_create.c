@@ -1,9 +1,9 @@
 #include "hash_tables.h"
 
-/*
- * Description : hash _table_create - creates a hash table
+/**
+ * hash_table_create - creates a hash table
  * @size: The size of the array
- * returns ; if error occurs return -- NULL.:wq
+ * Return: if error occurs - NULL.
  *
  * else returns the pointer to the new hash table.
  */
