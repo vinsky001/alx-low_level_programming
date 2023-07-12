@@ -10,7 +10,7 @@
   * Return: return index of value, if value is not present in array or
   * if array is NULL, returns -1
   */
-int linear_search(int *array, size_t size, int value);
+int linear_search(int *array, size_t size, int value)
 {
 	size_t j = 0;
 
